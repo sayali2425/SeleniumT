@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Asssignments.google">
+      <class name="Asssignments.PincodeMatch">
         <methods>
-          <include name="f"/>
-          <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- Asssignments.google -->
+      </class> <!-- Asssignments.PincodeMatch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
